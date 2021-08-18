@@ -7,6 +7,7 @@ def main():
    e=float(input("dame el valor de e"))
    f=float(input("dame el valor de f"))
    determinante= a*e-b*d
+   
    if determinante == 0:
        print("el sistema no tiene solucion")
    else:
